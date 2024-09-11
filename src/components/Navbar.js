@@ -46,7 +46,7 @@ function Navbar() {
             </Text>
             {/* Hire Me Modal */}
            <div>
-           <Button onClick={onOpen} color={isDark ? "gray.200" : "gray.500"}>Contact Me</Button>
+           <Button onClick={onOpen} color={isDark ? "gray.200" : "gray.800"}>Contact Me</Button>
 
             <Modal
                 initialFocusRef={initialRef}

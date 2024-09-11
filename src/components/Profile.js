@@ -21,14 +21,14 @@ function Profile() {
         <Text fontSize="2xl" fontWeight="bold">
           Fullstack Developer, with a keen interest in Frontend Development
         </Text>
-        <Flex direction={isNotSmallerScreen ? "row" : "column"} mt="8">
+        {/* <Flex direction={isNotSmallerScreen ? "row" : "column"} mt="8">
           <Flex rounded="xl" direction="column" mt="4" bg="white" h="30vh" w="30vh" justify="flex-end" _hover={{bg:"teal.600"}}>
             <Icon color="black" p="2" as={FaGlobe} w="24" h="24" />
             <Text color="black" p="4" fontSize="xl" fontWeight="semibold">
               Web Apps
             </Text>
           </Flex>
-        </Flex>
+        </Flex> */}
       </Box>
     </Flex>
   );
