@@ -49,7 +49,7 @@ import {
                 }}
               >
                 {" "}
-                I'M
+                I'm
               </span>
             </Heading>
             <Text
@@ -189,7 +189,7 @@ import {
             >
               Apart from coding, some other activities that I love to do!
             </Text>
-            {/* <List>
+            <List>
               <ListItem
                 fontSize={{ lg: "2xl", base: "xl" }}
                 fontWeight="medium"
@@ -214,7 +214,7 @@ import {
               >
                 Dedicated towards Fitness
               </ListItem>
-            </List> */}
+            </List>
             {/* Trying new Unstyled List with icon#*/}
             <List spacing={2}>
               <ListItem

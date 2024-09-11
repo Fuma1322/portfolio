@@ -18,10 +18,11 @@ function App() {
         </Heading>
         <Spacer />
         <Link to="/about">
-          <Heading ml="10" gap="10" size="md" fontWeight="semibold" color="cyan.400" _hover={{ textDecoration: "underline" }}>
+          <Heading mr="6" size="md" fontWeight="semibold" color="teal.400" _hover={{ textDecoration: "underline" }}>
             About
           </Heading>
         </Link>
+        
         <IconButton icon={isDark ? <FaSun /> : <FaMoon />} onClick={toggleColorMode}></IconButton>
       </Flex>
       <Navbar />
