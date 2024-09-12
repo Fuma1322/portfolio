@@ -1,5 +1,5 @@
 import { VStack, Flex, Heading, Spacer } from "@chakra-ui/layout";
-import { IconButton, useColorMode } from "@chakra-ui/react";
+import { IconButton, useColorMode, Button } from "@chakra-ui/react";
 import { FaMoon, FaSun } from "react-icons/fa";
 import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
@@ -18,12 +18,20 @@ function App() {
         </Heading>
         <Spacer />
         <Link to="/about">
-          <Heading mr="6" size="md" fontWeight="semibold" color="teal.400" _hover={{ textDecoration: "underline" }}>
+          <Button mr="4" colorScheme="teal" variant="outline" _hover={{ bg: "teal.400", color: "white" }}>
             About
-          </Heading>
+          </Button>
+        </Link>
+        <Link to="/project">
+          <Button mr="4" colorScheme="cyan" variant="outline" _hover={{ bg: "teal.400", color: "white" }}>
+            Projects
+          </Button>
         </Link>
         
-        <IconButton icon={isDark ? <FaSun /> : <FaMoon />} onClick={toggleColorMode}></IconButton>
+        <IconButton
+          icon={isDark ? <FaSun /> : <FaMoon />}
+          onClick={toggleColorMode}
+        ></IconButton>
       </Flex>
       <Navbar />
       <Socials />

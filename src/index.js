@@ -4,6 +4,7 @@ import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Import BrowserRouter, Routes, and Route
 import App from './App';
 import About from './components/About'; // Import the About page
+import Project from './components/Projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Routes>
           <Route path="/" element={<App />} /> {/* Main app route */}
           <Route path="/about" element={<About />} /> {/* About page route */}
+          <Route path="/project" element={<Project />} /> {/* About page route */}
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

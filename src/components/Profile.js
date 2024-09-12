@@ -1,7 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { Box, Flex, Heading, Text, Icon } from '@chakra-ui/react'; // Added Icon import from Chakra UI
-import { FaGlobe } from 'react-icons/fa';
+import { Box, Flex, Heading, Text } from '@chakra-ui/react'; // Added Icon import from Chakra UI
 
 function Profile() {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
