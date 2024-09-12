@@ -7,6 +7,7 @@ import {
   ButtonGroup,
   Divider,
 } from "@chakra-ui/react";
+import Header from "./Header";
 import { Card, Stack, CardBody, CardFooter } from "@chakra-ui/react";
 
 const projects = [
@@ -52,13 +53,14 @@ const Project = () => {
       wrap="wrap"
       direction="column"
       borderBottom="1px"
-      borderColor="purple.200"
+      borderColor="blue.200"
       backdropFilter="saturate(180%) blur(10px)"
       shadowColor="blue"
       shadow="3px 2px purple"
       _hover={{ shadow: "2px 2px 2px 2px blue" }}
       rounded="md"
     >
+      <Header />
       <Flex
         justifyContent="center"
         alignItems="center"
@@ -77,7 +79,7 @@ const Project = () => {
             fontWeight="bold"
           >
             My Recent{" "}
-            <span style={{ color: "purple", fontWeight: "bold" }}>Projects</span>
+            <span style={{ color: "blue", fontWeight: "bold" }}>Projects</span>
           </Heading>
           <Text
             fontSize={{ lg: "2xl", base: "xl" }}
@@ -87,7 +89,7 @@ const Project = () => {
             style={{ color: "blue.800" }}
           >
             Here are a few{" "}
-            <span style={{ color: "purple", fontWeight: "bold" }}>
+            <span style={{ color: "blue", fontWeight: "bold" }}>
               Projects
             </span>{" "}
             I've worked on recently.

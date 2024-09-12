@@ -23,7 +23,7 @@ function App() {
           </Button>
         </Link>
         <Link to="/project">
-          <Button mr="4" colorScheme="cyan" variant="outline" _hover={{ bg: "teal.400", color: "white" }}>
+          <Button mr="4" colorScheme="cyan" variant="outline" _hover={{ bg: "cyan.400", color: "white" }}>
             Projects
           </Button>
         </Link>

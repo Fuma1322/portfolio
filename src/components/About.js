@@ -7,6 +7,7 @@ import {
   List,
   Link,
 } from "@chakra-ui/react";
+import Header from "./Header";
 
 const About = () => {
   return (
@@ -18,6 +19,7 @@ const About = () => {
       wrap="wrap"
       direction="column"
     >
+      <Header />
       <Flex
         justifyContent="center"
         alignItems="center"
@@ -40,7 +42,7 @@ const About = () => {
             About
             <span
               style={{
-                color: "purple",
+                color: "teal",
                 fontWeight: "bold",
                 marginLeft: "4px",
                 marginRight: "4px",
@@ -59,7 +61,7 @@ const About = () => {
             Hello Everyone, I am{" "}
             <span
               style={{
-                color: "purple",
+                color: "teal",
                 fontWeight: "bold",
                 marginLeft: "4px",
                 marginRight: "4px",
@@ -71,7 +73,7 @@ const About = () => {
             from
             <span
               style={{
-                color: "purple",
+                color: "white",
                 fontWeight: "bold",
                 marginLeft: "4px",
                 marginRight: "4px",
@@ -89,7 +91,7 @@ const About = () => {
             I completed my <br />
             <span
               style={{
-                color: "purple",
+                color: "red",
                 fontWeight: "bold",
                 marginLeft: "4px",
                 marginRight: "4px",
@@ -129,7 +131,7 @@ const About = () => {
             My time at Holberton School <br/> allowed me to develop a strong<br/> foundation in{" "}
             <span
               style={{
-                color: "purple",
+                color: "teal",
                 fontWeight: "bold",
                 marginLeft: "4px",
                 marginRight: "4px",
@@ -142,7 +144,7 @@ const About = () => {
             I also have hands-on experience working <br/>with{" "}
             <span
               style={{
-                color: "purple",
+                color: "teal",
                 fontWeight: "bold",
                 marginLeft: "4px",
                 marginRight: "4px",
